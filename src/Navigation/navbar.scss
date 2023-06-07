@@ -1,0 +1,38 @@
+.brand-logo{
+height: 10vh;
+margin: 10px;
+}
+
+.navbar{
+    background-color: black;
+}
+
+
+.navbar-button{
+    background-color: #77240a;
+    border-radius: 3px;
+    color: white;
+    border-color: #77240a;
+}
+
+.dropdown-menu{
+    background-color: black !important;
+}
+
+.dropdown-item{
+    color: white !important;
+}
+
+@media only screen and (max-width: 992px) {
+    .nav-item{
+        position: absolute right;
+    }
+    .dropdown-menu{
+        text-align: right !important;
+    }
+    .navbar-collapse{
+        margin-right:10px !important;
+        text-align: right !important;
+    }
+    
+}

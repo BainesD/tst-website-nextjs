@@ -1,0 +1,32 @@
+.home-hero{
+    margin: 10px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border: 1px;
+    border-color: black;
+    color: white;
+}
+
+.home-hero__body{
+    margin: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    overflow:hidden;
+}
+.home-hero__image{
+    margin-right: 10%;
+    height: auto;
+    max-width: 75%;
+}
+.home-hero__text{
+    color: white;
+    margin-left: 10px;
+    width: 30vw;
+    text-align: left;
+    flex: 1 0 auto;
+}
