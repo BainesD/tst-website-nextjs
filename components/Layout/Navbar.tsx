@@ -33,7 +33,6 @@ export default function Navbar() {
     <AppBar position="static">
       <Toolbar>
         <Link href="/">
-          {" "}
           <Image
             src="/images/tstal-Logo.png"
             width={80}
@@ -42,7 +41,6 @@ export default function Navbar() {
             alt="The Satanic Temple Alabama Logo"
           />
         </Link>
-
         <Typography
           variant="h6"
           noWrap

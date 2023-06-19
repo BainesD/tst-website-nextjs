@@ -1,3 +1,4 @@
+import { Box, Container } from "@mui/material";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
@@ -9,9 +10,7 @@ export default function AppLayout({ children }: AppLayoutProps) {
   return (
     <>
       <Navbar />
-      <main style={{ backgroundColor: "black", height: "100vh" }}>
-        {children}
-      </main>
+      <main>{children}</main>
       <Footer />
     </>
   );
