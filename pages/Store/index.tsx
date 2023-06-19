@@ -66,7 +66,7 @@ export default function StoreHome() {
         <Grid container spacing={3} p="10px">
           {storeItems.map((item) => (
             <Grid key={item.id} item xs={4}>
-              <Card>
+              <Card sx={{ boxShadow: "5px 4px 5px black;" }}>
                 <CardHeader title={item.itemName} />
                 <CardContent>
                   <p>{item.itemDescription}</p>

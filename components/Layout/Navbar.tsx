@@ -51,7 +51,7 @@ export default function Navbar() {
             display: { xs: "none", md: "flex" },
             fontFamily: "Roboto",
             fontWeight: 700,
-            letterSpacing: ".3rem",
+            letterSpacing: ".5px",
             color: "inherit",
             textDecoration: "none",
           }}
